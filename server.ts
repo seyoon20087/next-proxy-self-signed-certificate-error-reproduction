@@ -21,7 +21,7 @@ app.prepare().then(() => {
       dev ? "development" : process.env.NODE_ENV
     }`
   );
-  console.log(`Go to http://localhost:${port}/c to view errors in the console`)
+  console.log(`Go to http://localhost:${port}/c to view errors in the console`);
 });
 
 const expressApp = express();
