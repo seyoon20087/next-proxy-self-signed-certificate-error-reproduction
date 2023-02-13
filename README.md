@@ -12,8 +12,10 @@ I personally recommend (and use) Gitpod for testing as it [doesn't require local
 
 **PLEASE NOTE: this reproduction can only be tested on Unix-based environments. This means you cannot test it on Windows without using a WSL environment.**
 
+If you're on Windows, install a working WSL2 environment by following the instructions [here](https://learn.microsoft.com/en-us/windows/wsl/install).
+
 Once you started the server (`yarn dev` or `yarn start` after successful build), go to `http://localhost:3000/c` to view errors in the console.
 
-Note: if you use Gitpod, it will return a `Port ... not found` error if you directly access the HTTPS server
+Note: if you use Gitpod, it will return a `Port ... not found` error if you directly access the HTTPS server on the browser.
 
-Also note that you may not raise questions or pull requests here.
+Also note that you may not raise questions or pull requests here. Please write comments directly to the thread mentioned above.

@@ -1,8 +1,8 @@
 tasks:
+# NOTE: the before/init tasks here is just a dummy command
   - before: |
-      yarn install && yarn build
-  # NOTE: the init task here is just a dummy command
+      dd if=/dev/zero of=/dev/null bs=512 count=1 conv=fsync || true
   - init: |
-      dd if=/dev/zero of=/dev/null bs=512 count=1 conv=fsync
+      dd if=/dev/zero of=/dev/null bs=512 count=1 conv=fsync || true
   - command: |
-      yarn start
+      yarn install && yarn build && yarn start
