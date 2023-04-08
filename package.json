@@ -8,7 +8,7 @@
   "dependencies": {
     "cross-env": "^7.0.3",
     "express": "^4.18.2",
-    "next": "^13.2.4-canary.8",
+    "next": "^13.3.1-canary.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
